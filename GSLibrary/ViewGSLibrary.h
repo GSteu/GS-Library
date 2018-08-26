@@ -15,6 +15,10 @@ protected: // Nur aus Serialisierung erstellen
 public:
 	CDocGSLibrary* GetDocument() const;
 
+	CD2DTextFormat*          m_pTextFormat;
+	CD2DSolidColorBrush*     m_pBlackBrush;
+	CD2DLinearGradientBrush* m_pLinearGradientBrush;
+
 // Vorgänge
 public:
 
@@ -41,6 +45,7 @@ protected:
 // Generierte Funktionen für die Meldungstabellen
 protected:
 	DECLARE_MESSAGE_MAP()
+	virtual void OnUpdate(CView* /*pSender*/, LPARAM /*lHint*/, CObject* /*pHint*/);
 };
 
 #ifndef _DEBUG  // Debugversion in ViewGSLibrary.cpp

@@ -1,88 +1,101 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Quelldateien">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    <Filter Include="GSLabel">
+      <UniqueIdentifier>{5c029faa-8031-43bb-a7aa-ff36a008f862}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Headerdateien">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    <Filter Include="GSLibrary">
+      <UniqueIdentifier>{fa0cc277-bfad-4c75-86e1-9ef3e1e19021}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Ressourcendateien">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    <Filter Include="GSLibrary\res">
+      <UniqueIdentifier>{7d285434-a15a-4648-a5b3-98ed481c4e34}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="ReadMe.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="GSLibrary.h">
-      <Filter>Headerdateien</Filter>
-    </ClInclude>
-    <ClInclude Include="stdafx.h">
-      <Filter>Headerdateien</Filter>
-    </ClInclude>
-    <ClInclude Include="targetver.h">
-      <Filter>Headerdateien</Filter>
-    </ClInclude>
-    <ClInclude Include="MainFrameGSLibrary.h">
-      <Filter>Headerdateien</Filter>
-    </ClInclude>
-    <ClInclude Include="ChildFrameGSLibrary.h">
-      <Filter>Headerdateien</Filter>
-    </ClInclude>
-    <ClInclude Include="DocGSLibrary.h">
-      <Filter>Headerdateien</Filter>
-    </ClInclude>
-    <ClInclude Include="ViewGSLibrary.h">
-      <Filter>Headerdateien</Filter>
-    </ClInclude>
-    <ClInclude Include="Resource.h">
-      <Filter>Headerdateien</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="GSLibrary.cpp">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="stdafx.cpp">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="MainFrameGSLibrary.cpp">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
     <ClCompile Include="ChildFrameGSLibrary.cpp">
-      <Filter>Quelldateien</Filter>
+      <Filter>GSLibrary</Filter>
     </ClCompile>
     <ClCompile Include="DocGSLibrary.cpp">
-      <Filter>Quelldateien</Filter>
+      <Filter>GSLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="GSLibrary.cpp">
+      <Filter>GSLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrameGSLibrary.cpp">
+      <Filter>GSLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>GSLibrary</Filter>
     </ClCompile>
     <ClCompile Include="ViewGSLibrary.cpp">
-      <Filter>Quelldateien</Filter>
+      <Filter>GSLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GSLabel\GSAttributes.cpp">
+      <Filter>GSLabel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GSLabel\GSLabel.cpp">
+      <Filter>GSLabel</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="GSLibrary.reg" />
-    <None Include="res\GSLibrary.rc2">
-      <Filter>Ressourcendateien</Filter>
-    </None>
+    <ClInclude Include="ChildFrameGSLibrary.h">
+      <Filter>GSLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="DocGSLibrary.h">
+      <Filter>GSLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="GSLibrary.h">
+      <Filter>GSLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrameGSLibrary.h">
+      <Filter>GSLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>GSLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>GSLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>GSLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewGSLibrary.h">
+      <Filter>GSLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GSLabel\GSAttributes.h">
+      <Filter>GSLabel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GSLabel\GSLabel.h">
+      <Filter>GSLabel</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="GSLibrary.rc">
-      <Filter>Ressourcendateien</Filter>
+      <Filter>GSLibrary</Filter>
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="res\GSLibraryDoc.ico">
-      <Filter>Ressourcendateien</Filter>
-    </Image>
     <Image Include="res\GSLibrary.ico">
-      <Filter>Ressourcendateien</Filter>
+      <Filter>GSLibrary\res</Filter>
+    </Image>
+    <Image Include="res\GSLibraryDoc.ico">
+      <Filter>GSLibrary\res</Filter>
     </Image>
     <Image Include="res\Toolbar.bmp">
-      <Filter>Ressourcendateien</Filter>
+      <Filter>GSLibrary\res</Filter>
     </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\GSLibrary.rc2">
+      <Filter>GSLibrary\res</Filter>
+    </None>
+    <None Include="GSLibrary.reg">
+      <Filter>GSLibrary</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>GSLibrary</Filter>
+    </Text>
   </ItemGroup>
 </Project>

@@ -112,3 +112,9 @@ CDocGSLibrary* CViewGSLibrary::GetDocument() const // Nichtdebugversion ist inli
 
 
 // CViewGSLibrary-Meldungshandler
+
+
+void CViewGSLibrary::OnUpdate(CView* /*pSender*/, LPARAM /*lHint*/, CObject* /*pHint*/)
+{
+	// TODO: Add your specialized code here and/or call the base class
+}

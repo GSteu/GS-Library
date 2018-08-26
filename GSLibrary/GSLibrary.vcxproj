@@ -185,6 +185,8 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\GSLabel\GSAttributes.h" />
+    <ClInclude Include="..\GSLabel\GSLabel.h" />
     <ClInclude Include="ChildFrameGSLibrary.h" />
     <ClInclude Include="DocGSLibrary.h" />
     <ClInclude Include="GSLibrary.h" />
@@ -195,6 +197,8 @@
     <ClInclude Include="ViewGSLibrary.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\GSLabel\GSAttributes.cpp" />
+    <ClCompile Include="..\GSLabel\GSLabel.cpp" />
     <ClCompile Include="ChildFrameGSLibrary.cpp" />
     <ClCompile Include="DocGSLibrary.cpp" />
     <ClCompile Include="GSLibrary.cpp" />
@@ -222,4 +226,9 @@
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="GSLibrary.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
 </Project>

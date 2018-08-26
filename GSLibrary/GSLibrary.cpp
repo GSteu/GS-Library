@@ -62,7 +62,8 @@ BOOL CGSLibraryApp::InitInstance()
 
 	CWinApp::InitInstance();
 
-
+	EnableD2DSupport(D2D1_FACTORY_TYPE_MULTI_THREADED, DWRITE_FACTORY_TYPE_SHARED);
+	
 	EnableTaskbarInteraction(FALSE);
 
 	// AfxInitRichEdit2() ist für die Verwendung des RichEdit-Steuerelements erforderlich.	
