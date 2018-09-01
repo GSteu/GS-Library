@@ -36,7 +36,7 @@ int CGSLabel::OnCreate(LPCREATESTRUCT lpCreateStruct)
 		return -1;
 
 	// Enable WINDOW!!! D2D1-Support must be done for each and every window
-	EnableD2DSupport(TRUE,FALSE;
+	EnableD2DSupport(TRUE,FALSE);
 
 
 	return 0;
