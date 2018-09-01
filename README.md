@@ -1,4 +1,4 @@
 GS-Library
 ==========
 
-Library of misc. classes
+Library for GUI/D2D1/DWrite classes
