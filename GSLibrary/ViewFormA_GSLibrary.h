@@ -1,9 +1,6 @@
-
-// ViewFormA_GSLibrary.h : interface of the CViewFormA_GSLibrary class
-//
-
+//* ViewFormA_GSLibrary.h
+// interface of the CViewFormA_GSLibrary class
 #pragma once
-
 
 class CViewFormA_GSLibrary : public CFormView
 {

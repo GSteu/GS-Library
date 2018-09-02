@@ -1,7 +1,6 @@
-
-// FrameMain_GSLibrary.h : interface of the CFrameMain_GSLibrary class
+//+ FrameMain_GSLibrary.h 
+//interface of the CFrameMain_GSLibrary class
 //
-
 #pragma once
 #include "OutputWnd.h"
 #include "PropertiesWnd.h"

@@ -1,7 +1,6 @@
-
-// FrameChild_GSLibrary.h : interface of the CFrameChild_GSLibrary class
+//+ FrameChild_GSLibrary.h
+//interface of the CFrameChild_GSLibrary class
 //
-
 #pragma once
 
 class CFrameChild_GSLibrary : public CMDIChildWndEx

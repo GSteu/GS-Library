@@ -1,7 +1,6 @@
-
-// FrameChild_GSLibrary.cpp : implementation of the CFrameChild_GSLibrary class
+//+ FrameChild_GSLibrary.cpp
+// implementation of the CFrameChild_GSLibrary class
 //
-
 #include "stdafx.h"
 #include "GSLibrary.h"
 
@@ -10,8 +9,7 @@
 #ifdef _DEBUG
 #define new DEBUG_NEW
 #endif
-
-// CFrameChild_GSLibrary
+//+ CFrameChild_GSLibrary
 
 IMPLEMENT_DYNCREATE(CFrameChild_GSLibrary, CMDIChildWndEx)
 

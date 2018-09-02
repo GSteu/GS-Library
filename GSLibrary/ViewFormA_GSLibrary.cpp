@@ -1,5 +1,5 @@
-
-// ViewFormA_GSLibrary.cpp : implementation of the CViewFormA_GSLibrary class
+//+ ViewFormA_GSLibrary.cpp 
+// implementation of the CViewFormA_GSLibrary class
 //
 
 #include "stdafx.h"
@@ -17,8 +17,7 @@
 #endif
 
 
-// CViewFormA_GSLibrary
-
+//+ CViewFormA_GSLibrary
 IMPLEMENT_DYNCREATE(CViewFormA_GSLibrary, CFormView)
 
 BEGIN_MESSAGE_MAP(CViewFormA_GSLibrary, CFormView)

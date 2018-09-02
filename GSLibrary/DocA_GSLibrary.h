@@ -1,10 +1,7 @@
-
-// DocA_GSLibrary.h : interface of the CDocA_GSLibrary class
+// DocA_GSLibrary.h 
+//interface of the CDocA_GSLibrary class
 //
-
-
 #pragma once
-
 
 class CDocA_GSLibrary : public CDocument
 {

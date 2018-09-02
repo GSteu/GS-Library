@@ -1,4 +1,6 @@
-
+//+ COutputWnd
+// Implementation of the output view
+//
 #include "stdafx.h"
 
 #include "OutputWnd.h"

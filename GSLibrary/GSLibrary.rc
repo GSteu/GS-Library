@@ -432,7 +432,7 @@ END
 
 STRINGTABLE
 BEGIN
-    AFX_IDS_APP_TITLE       "GSLibrary"
+    AFX_IDS_APP_TITLE       "GS-Library Demo"
     AFX_IDS_IDLEMESSAGE     "Ready"
 END
 

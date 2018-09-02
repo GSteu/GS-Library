@@ -1,5 +1,5 @@
-
-// FrameMain_GSLibrary.cpp : implementation of the CFrameMain_GSLibrary class
+//+ FrameMain_GSLibrary.cpp
+// implementation of the CFrameMain_GSLibrary class
 //
 
 #include "stdafx.h"
@@ -11,7 +11,7 @@
 #define new DEBUG_NEW
 #endif
 
-// CFrameMain_GSLibrary
+//+ CFrameMain_GSLibrary
 
 IMPLEMENT_DYNAMIC(CFrameMain_GSLibrary, CMDIFrameWndEx)
 

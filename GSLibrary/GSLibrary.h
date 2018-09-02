@@ -1,5 +1,5 @@
-
-// GSLibrary.h : main header file for the GSLibrary application
+//+ GSLibrary.h 
+// main header file for the GSLibrary application
 //
 #pragma once
 
@@ -9,11 +9,9 @@
 
 #include "resource.h"       // main symbols
 
-
 // CApp_GSLibrary:
 // See GSLibrary.cpp for the implementation of this class
 //
-
 class CApp_GSLibrary : public CWinAppEx
 {
 public:

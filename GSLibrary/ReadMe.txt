@@ -1,6 +1,6 @@
-================================================================================
+======================================================================
     MICROSOFT FOUNDATION CLASS LIBRARY : GSLibrary Project Overview
-===============================================================================
+======================================================================
 
 The application wizard has created this GSLibrary application for
 you.  This application not only demonstrates the basics of using the Microsoft
@@ -51,8 +51,6 @@ GSLibrary.reg
     settings the framework will set for you.  You can use this as a .reg
     file to go along with your application or just delete it and rely
     on the default RegisterShellFileTypes registration.
-
-
 /////////////////////////////////////////////////////////////////////////////
 
 For the main frame window:

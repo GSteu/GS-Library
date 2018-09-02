@@ -1,7 +1,5 @@
 #pragma once
-
-
-// CGSLabel
+//+ CGSLabel
 
 class CGSLabel : public CStatic
 {
@@ -10,7 +8,6 @@ class CGSLabel : public CStatic
 public:
 	CGSLabel();
 	virtual ~CGSLabel();
-
 protected:
 	DECLARE_MESSAGE_MAP()
 public:

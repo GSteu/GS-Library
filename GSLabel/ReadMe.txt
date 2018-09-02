@@ -1,12 +1,11 @@
-========================================================================
+===================================================
     STATIC LIBRARY : GSLabel Project Overview
-========================================================================
+===================================================
 
 AppWizard has created this GSLabel library project for you.
 
 This file contains a summary of what you will find in each of the files that
 make up your GSLabel application.
-
 
 GSLabel.vcxproj
     This is the main project file for VC++ projects generated using an Application Wizard.
@@ -20,7 +19,6 @@ GSLabel.vcxproj.filters
     and the filters. This association is used in the IDE to show grouping of files with
     similar extensions under a specific node (for e.g. ".cpp" files are associated with the
     "Source Files" filter).
-
 
 /////////////////////////////////////////////////////////////////////////////
 
@@ -36,7 +34,6 @@ includes resource.h. If you add an rc file to a static library, you may
 experience difficulties due to the limitation that only one rc file may be
 present in a Dll or Exe. This problem may be overcome by including the
 library's .rc file into the parent project's .rc file.
-
 /////////////////////////////////////////////////////////////////////////////
 Other notes:
 

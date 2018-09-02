@@ -1,4 +1,5 @@
-
+//+ COutputWnd
+// Implementation of OtuputView
 #pragma once
 
 /////////////////////////////////////////////////////////////////////////////
@@ -23,6 +24,7 @@ protected:
 	DECLARE_MESSAGE_MAP()
 };
 
+//+ COutputWnd
 class COutputWnd : public CDockablePane
 {
 // Construction

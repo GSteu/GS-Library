@@ -1,5 +1,5 @@
-
-// GSLibrary.cpp : Defines the class behaviors for the application.
+//+ GSLibrary.cpp 
+// Defines the class behaviors for the application.
 //
 
 #include "stdafx.h"
@@ -16,8 +16,7 @@
 #define new DEBUG_NEW
 #endif
 
-//++ CApp_GSLibrary
-
+//+ CApp_GSLibrary
 BEGIN_MESSAGE_MAP(CApp_GSLibrary, CWinAppEx)
 	ON_COMMAND(ID_APP_ABOUT, &CApp_GSLibrary::OnAppAbout)
 	// Standard file based document commands

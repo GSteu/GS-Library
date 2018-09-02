@@ -1,5 +1,5 @@
-
-// DocA_GSLibrary.cpp : implementation of the CDocA_GSLibrary class
+//+ DocA_GSLibrary.cpp 
+// implementation of the CDocA_GSLibrary class
 //
 
 #include "stdafx.h"

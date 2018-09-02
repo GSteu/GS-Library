@@ -1,4 +1,5 @@
-
+//+ CPropertiesWnd
+// Implementation of PropertyView
 #pragma once
 
 class CPropertiesToolBar : public CMFCToolBar

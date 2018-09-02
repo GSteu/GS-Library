@@ -1,4 +1,5 @@
-
+//+ CPropertiesWnd
+// Implementation of PropertyView
 #include "stdafx.h"
 
 #include "PropertiesWnd.h"
@@ -13,7 +14,7 @@ static char THIS_FILE[]=__FILE__;
 #endif
 
 /////////////////////////////////////////////////////////////////////////////
-// CResourceViewBar
+// +CPropertiesWnd
 
 CPropertiesWnd::CPropertiesWnd()
 {
@@ -40,7 +41,7 @@ BEGIN_MESSAGE_MAP(CPropertiesWnd, CDockablePane)
 END_MESSAGE_MAP()
 
 /////////////////////////////////////////////////////////////////////////////
-// CResourceViewBar message handlers
+// CPropertiesWnd message handlers
 
 void CPropertiesWnd::AdjustLayout()
 {
