@@ -425,7 +425,7 @@ END
 
 STRINGTABLE
 BEGIN
-    IDR_MAINFRAME           "GSLibrary"
+    IDR_MAINFRAME           "GS-Library Demo"
     IDR_GSLibraryTYPE       "\nGSLibrary\nGSLibrary\nGSLibrary Files (*.pic)\n.pic\nGSLibrary.Document\nGSLibrary.Document"
     ID_WINDOW_MANAGER       "&Windows..."
 END

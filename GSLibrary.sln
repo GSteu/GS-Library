@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GSLibrary", "GSLibrary\GSLibrary.vcxproj", "{DD14DA34-A023-4C3B-A6F7-68CDBB6005C2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A960D3B7-6889-4BD9-A7C4-1B2ADC1B3662} = {A960D3B7-6889-4BD9-A7C4-1B2ADC1B3662}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GSLabel", "GSLabel\GSLabel.vcxproj", "{A960D3B7-6889-4BD9-A7C4-1B2ADC1B3662}"
 EndProject
