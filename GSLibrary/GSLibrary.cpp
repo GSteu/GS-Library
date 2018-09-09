@@ -5,16 +5,20 @@
 #include "stdafx.h"
 #include "afxwinappex.h"
 #include "afxdialogex.h"
+
+
 #include "GSLibrary.h"
 #include "FrameMain_GSLibrary.h"
-
 #include "FrameChild_GSLibrary.h"
 #include "DocA_GSLibrary.h"
 #include "ViewFormA_GSLibrary.h"
+#include "afxwin.h"
 
 #ifdef _DEBUG
 #define new DEBUG_NEW
 #endif
+
+
 
 //+ CApp_GSLibrary
 BEGIN_MESSAGE_MAP(CApp_GSLibrary, CWinAppEx)
@@ -61,7 +65,7 @@ BOOL CApp_GSLibrary::InitInstance()
 	//- AfxInitRichEdit2();
 
 	// Enable APPLICATION!!! D2D1-support from CWinApp::EnableD2DSupport
-	//- Remember you have to enable D2D1-support for each window you want to use D2D1 too
+	//- Remember you still have to enable D2D1-support for each window if you want to use D2D1 too
 	VERIFY(EnableD2DSupport(D2D1_FACTORY_TYPE_MULTI_THREADED, DWRITE_FACTORY_TYPE_SHARED));
 
 	// Standard initialization
@@ -157,15 +161,19 @@ protected:
 // Implementation
 protected:
 	DECLARE_MESSAGE_MAP()
+public:
+	CGSLabel m_LBLTest;
 };
 
 CAboutDlg::CAboutDlg() : CDialogEx(IDD_ABOUTBOX)
 {
+	// EnableD2DSupport(TRUE, FALSE);
 }
 
 void CAboutDlg::DoDataExchange(CDataExchange* pDX)
 {
 	CDialogEx::DoDataExchange(pDX);
+	DDX_Control(pDX, ID_TESTLABEL, m_LBLTest);
 }
 
 BEGIN_MESSAGE_MAP(CAboutDlg, CDialogEx)
@@ -176,6 +184,7 @@ void CApp_GSLibrary::OnAppAbout()
 {
 	CAboutDlg aboutDlg;
 	aboutDlg.DoModal();
+	
 }
 
 // CApp_GSLibrary customization load/save methods

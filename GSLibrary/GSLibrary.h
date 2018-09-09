@@ -9,6 +9,15 @@
 
 #include "resource.h"       // main symbols
 
+#include "..\GSLabel\GSLabel.h"
+
+#ifdef _DEBUG
+#pragma comment (lib,"../Debug/GSLabel.lib")
+#else
+#pragma comment (lib,"../Release/GSLabel.lib")
+#endif
+
+
 // CApp_GSLibrary:
 // See GSLibrary.cpp for the implementation of this class
 //
