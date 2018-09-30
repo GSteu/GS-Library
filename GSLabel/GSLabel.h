@@ -37,6 +37,14 @@ protected:
 	CD2DPathGeometry* m_pMiddleFrameGeometry;
 	CD2DPathGeometry* m_pInnerGeometry;
 	CD2DPathGeometry* m_pDrawingAreaGeometry;
+	// Text and Formatting
+	CString m_strText;
+	CD2DSolidColorBrush *m_pSolidBrushTextColor;
+	CD2DTextFormat *m_pTextFormat;
+	CD2DTextLayout *m_pTextLayout;
+	// TODO: to be defined
+	// list of text range formats
+	//CTypedPtrList<CObList, CTextRangeFormat*> m_listTextRangeFormat;
 };
 
 
